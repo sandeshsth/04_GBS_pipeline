@@ -51,7 +51,7 @@ cd ..
 rm passed_fisher.txt passed_chi2.txt passed_inbred.txt pos_passed_*
 
 mkdir 02_quality_files
-mv chi* inbred* stat* fisher* Count_Geno-$1-all.vcf.txt 02_quality_files
+mv chi2_quality_Count* inbred_quality_stat* stat* fisher_quality_Count* Count_Geno-$1-all.vcf.txt 02_quality_files
 
 
 
